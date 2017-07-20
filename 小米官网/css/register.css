@@ -1,0 +1,153 @@
+/*代码初始化*/
+body{
+    background-color: #f9f9f9;
+    color:#666;
+    font-family:arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro",    sans-serif;
+    font-size: 12px;
+}
+p,h1,h2,h3,h4,h5,h6,ul,li,dl,dd,dt{
+    margin:0;
+    padding:0;
+}
+button,input,select,textarea{
+    font-family:arial, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    width:330px;
+    height:40px;
+}
+#container{
+    width:786px;
+    height:472px;
+    background-color: #ffffff;
+    margin:120px auto;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    font-weight: normal;
+    margin:30px 0 20px 0;
+}
+.areal{
+    width:330px;
+    height:40px;
+    box-sizing: border-box;
+    border:1px solid #c5c5c5;
+    line-height: 40px;
+    position: relative;
+    margin:0 0 15px 228px;
+}
+.areal p:first-child {
+    float:left;
+    text-align: left;
+    padding-left: 5px;
+}
+.areal p:nth-child(2) {
+    float: right;
+    height:37.4px;
+    border-left: 1px solid #c5c5c5;
+    width:30px;
+    border-top:1px solid transparent;
+    cursor: pointer;
+}
+.areal p:nth-child(2)>span{
+    display: inline-block;
+    width:16px;
+    height:16px;
+    background: url(../images/icon_user.png) no-repeat 0 0;
+    margin-top: 11.2px;
+}
+#areal_list{
+    height: 270px;
+    width:330px;
+    position: absolute;
+    top:38.4px;
+    left:-1px;
+    border: 1px solid #c5c5c5;
+    box-sizing: border-box;
+    overflow: auto;
+    display: none;
+    background-color: white;
+    z-index: 100;
+}
+#areal_list li{
+    height:40px;
+    box-sizing: border-box;
+    border-bottom:1px solid #c5c5c5;
+    list-style: none;
+    cursor: pointer;
+}
+#areal_list>li>a{
+    text-align: left;
+    display: inline-block;
+    width:80%;
+}
+#areal_list>li:first-child {
+    text-align: left;
+    background-color: pink;
+    height:30px;
+    margin-bottom:10px;
+    padding-left:17px;
+    line-height: 30px;
+}
+#areal_list li:hover{
+    background-color: #c5c5c5;
+}
+.register-main {
+    height: 190px;
+    position:relative;
+    z-index: 0;
+}
+.register-main input{
+    border:1px solid #c5c5c5;
+    width:326px;
+    height:35px;
+    margin-bottom: 10px;
+}
+.user,.pwd{
+    margin:0 0  5px 228px;
+    width:330px;
+    text-align: left;
+    display: none;
+    line-height: 20px;
+}
+.register>div:nth-of-type(3)>input{
+    background-color: #FF6700;
+    outline: none;
+    border: none;
+    width:330px;
+    height:40px;
+    color:white;
+    margin-bottom: 5px;
+}
+#c1{
+    position: relative;
+    top:-128px;
+    right:-100px;
+}
+.text{
+    width:330px;
+    margin:0 auto;
+    text-align: left;
+}
+/*footer*/
+
+#footer>ul{
+    width:221px;
+    height:16px;
+    margin-left:593px;
+    list-style: none;
+}
+#footer li{
+    float:left;
+    list-style: none;
+    padding-right:10px;
+    margin-left:10px;
+    border-right:1px solid #c5c5c5;
+    height: 16px;
+    line-height: 16px;
+}
+#footer p{
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+}
+
